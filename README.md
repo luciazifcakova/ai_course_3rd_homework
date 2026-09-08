@@ -36,7 +36,7 @@ uv pip install \
     
 2. have ollama llm, such as qwen3:14b running locally
 3. let the web crawling script to build SQL database from some seqme.eu sites - python src/build_kb.py
-4. add the database access module python kb.py
+4. add the database access module python kb.py, that uses these functions to retrieve information from database: search_services, search_faqs, get_page
 5. then create STDIO MCP that use these functions to search database: Search SEQme services, Read SEQme page, Search SEQme FAQs
 6. in langflow, use ReAct agent with MCP component as a tool that internally calls the database (they are not connected by line in the workflow)
 
