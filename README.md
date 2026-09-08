@@ -1,5 +1,4 @@
 # ai_course_3rd_homework
-<<<<<<< HEAD
 simple ReAct agent that uses SQL database created from www.seqme.eu wbesite and use STDIO MCP tool that access this database to answer customer question
 
 # How to run:
@@ -34,5 +33,4 @@ uv pip install \
     "mcp[cli]"
     
 2. have ollama 
-=======
->>>>>>> 74c1f57 (first commit)
+
