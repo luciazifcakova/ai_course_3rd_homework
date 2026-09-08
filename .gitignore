@@ -1,0 +1,11 @@
+.uv_venv/
+src/__pycache__/
+*.pyc
+
+data/*.db
+data/*.db-wal
+data/*.db-shm
+
+logs/
+.env
+.DS_Store
