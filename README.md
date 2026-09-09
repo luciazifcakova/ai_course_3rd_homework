@@ -11,7 +11,7 @@ langflow run \
 ollama serve
 
 4. tunnel on local pc:
-ssh -L 7860:127.0.0.1:7860 metation@192.168.3.45
+ssh -L 7860:127.0.0.1:7860 user@xxxx
 
 5. open in canary browser on local pc
 http://127.0.0.1:7860
